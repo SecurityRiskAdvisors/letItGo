@@ -4,9 +4,9 @@
 letItGo is a tool that was developed to aid security professionals in the identification of expired tenant domains in Office 365. Prior to Microsoft releasing a fix, it was possible to purchase these domains to obtain direct access to an organizations Office 365 tenant through PowerBI and PowerAutomate. For more information on this attack, check out the blog post here: [letItGo](https://sra.io/blog/letitgo-a-case-study-in-expired-domains-and-azure-ad/).
 
 ## Usage:
-letItGo is a simple tool to run, assuming you already have a go environment setup. It just takes a domain as input and then begins the searching process.
+letItGo is a simple tool to run. Grab the latest release or compile your own. It just takes a domain as input and then begins the searching process.
 
-`go run letitgo.go [domain].[tld]`
+`letitgo [domain].[tld]`
 
 The output will be presented in 3 different colors/buckets:
 
